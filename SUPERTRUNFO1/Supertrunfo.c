@@ -115,18 +115,87 @@ int main() {
 
         case 1:
         if (populacao1 > populacao2){
-            printf("Carta 1 venceu!", cidade1);
+            printf("Carta 1 venceu!(%s tem a maior população)\n", cidade1);
 
         }else if (populacao2 > populacao1){
-            printf("Carta 2 venceu!", cidade2);
+            printf("Carta 2 venceu!(%s tem a maior população)\n", cidade2);
+
+        } else { 
+          printf("Empate!\n");
+
+        }
+
+          break;
+
+          case 2:
+        
+          if (area1 > area2){
+            printf("Carta 1 venceu!(%s tem maior área)\n", cidade1);
+
+          } else if(area2 > area1){
+              printf("Carta 2 venceu!(%s tem maior área)\n", cidade2);
+
+          }else {
+            printf("Empate! Área igual");
+
+          }
+
+            break;
+
+            case 3:
+
+            if (pib1 > pib2){
+                 printf("Carta 1 venceu!(%s tem maior PIB)\n", cidade1);
+            } else if (pib2 > pib1){
+              printf("Carta 2 venceu!(%s tem maior PIB)\n", cidade2);
+
+            }else { 
+
+              printf("Empate! PIB é igual");
+
+            }
+
+              break;
+
+             case 4:
+
+              if (pontosturisticos1 > pontosturisticos2){
+
+                printf("Carta 1 venceu! (%s tem mais pontos turísticos)\n", cidade1);
+
+               } else if(pontosturisticos2 > pontosturisticos1){
+                 
+                printf("carta 2 Venceu!(%s tem mais pontos turísticos)\n", cidade2);
+
+               } else {
+
+                printf("Empate! Pontos Turísticos iguais\n");
+               
+               }
+
+               break;
+              
+              default:
+
+              printf(" Opção inválida!\n");
+
+    
+
+              break;
+    }
 
         
+              
+              
 
-        
-      
+              
+            
 
 
 
+
+
+          
       return 0;
 
 
