@@ -101,7 +101,7 @@ int main() {
      //=======================================
 
     printf("\n==================================\n");
-    printf("Escolha o atributo para comparação:");
+    printf("Escolha o atributo para comparação:\n");
     printf("1- População\n");
     printf("2- Área\n");
     printf("3- PIB\n");
