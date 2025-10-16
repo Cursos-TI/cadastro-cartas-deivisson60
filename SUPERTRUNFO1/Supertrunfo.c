@@ -109,6 +109,7 @@ int main() {
     printf("Escolha um Atributo:");
     scanf(" %d", &escolha);
 
+    printf("\n==================================\n");
     printf("\n Resultado da Prtida:\n");
 
     switch (escolha){
@@ -130,10 +131,10 @@ int main() {
           case 2:
         
           if (area1 > area2){
-            printf("Carta 1 venceu!(%s tem maior área)\n", cidade1);
+            printf("Carta 1 venceu!(%s tem a maior área)\n", cidade1);
 
           } else if(area2 > area1){
-              printf("Carta 2 venceu!(%s tem maior área)\n", cidade2);
+              printf("Carta 2 venceu!(%s tem a maior área)\n", cidade2);
 
           }else {
             printf("Empate! Área igual");
@@ -145,9 +146,9 @@ int main() {
             case 3:
 
             if (pib1 > pib2){
-                 printf("Carta 1 venceu!(%s tem maior PIB)\n", cidade1);
+                 printf("Carta 1 venceu!(%s tem o maior PIB)\n", cidade1);
             } else if (pib2 > pib1){
-              printf("Carta 2 venceu!(%s tem maior PIB)\n", cidade2);
+              printf("Carta 2 venceu!(%s tem o maior PIB)\n", cidade2);
 
             }else { 
 
